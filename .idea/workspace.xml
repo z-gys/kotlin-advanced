@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52a9c8e1-a897-4a43-b1d0-79a46ab502c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day2/example.sql" afterDir="false" />
+    <list default="true" id="52a9c8e1-a897-4a43-b1d0-79a46ab502c7" name="Default Changelist" comment="add gitignore">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day2/Constructors.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day2/DataClasses.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day2/Loops.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day2/Measurement.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day2/UsableFunctions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day3/Extensions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day3/Infix.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day3/OperatorPractice.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day3/Operators.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mega-kotlin/META-INF/mega-kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mega-kotlin/META-INF/mega-kotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mega-kotlin/ru/mobiledimension/study/megakotlin/day1/BasicKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mega-kotlin/ru/mobiledimension/study/megakotlin/day1/BasicKt.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +40,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -43,10 +55,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="full.screen.before.presentation.mode" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -60,7 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.ru.mobiledimension.study.megakotlin.day3.OperatorsKt">
     <configuration name="ru.mobiledimension.study.megakotlin.day1.BasicKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="mega-kotlin" />
       <option name="VM_PARAMETERS" />
@@ -74,11 +87,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ru.mobiledimension.study.megakotlin.day2.DataClassesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="mega-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.mobiledimension.study.megakotlin.day2.DataClassesKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.mobiledimension.study.megakotlin.day2.UsableFunctionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="mega-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.mobiledimension.study.megakotlin.day2.UsableFunctionsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.mobiledimension.study.megakotlin.day3.OperatorsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="mega-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.mobiledimension.study.megakotlin.day3.OperatorsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day3.OperatorsKt" />
+        <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day2.UsableFunctionsKt" />
+        <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day2.DataClassesKt" />
         <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day1.BasicKt" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -90,8 +155,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566299927864</updated>
-      <workItem from="1566299932239" duration="4223000" />
+      <workItem from="1566299932239" duration="4533000" />
+      <workItem from="1566480828636" duration="3727000" />
+      <workItem from="1567519761217" duration="2551000" />
     </task>
+    <task id="LOCAL-00001" summary="add exaple for day2">
+      <created>1566480513535</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566480513535</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add gitignore">
+      <created>1566480937054</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566480937054</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,10 +181,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add exaple for day2" />
+    <MESSAGE value="add gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
   </component>
 </project>
