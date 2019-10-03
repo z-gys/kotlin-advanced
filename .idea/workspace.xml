@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52a9c8e1-a897-4a43-b1d0-79a46ab502c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day4/Builder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day4/Dsl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day4/Lambdas.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day4/References.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day5/FuckinLegacy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day5/Generics.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day5/Inlines.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mega-kotlin/META-INF/mega-kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mega-kotlin/META-INF/mega-kotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day5/Inlines.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day5/Inlines.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -169,6 +162,7 @@
       <workItem from="1566480828636" duration="3727000" />
       <workItem from="1567519761217" duration="5454000" />
       <workItem from="1568729991982" duration="2315000" />
+      <workItem from="1568804232188" duration="1649000" />
     </task>
     <task id="LOCAL-00001" summary="add exaple for day2">
       <created>1566480513535</created>

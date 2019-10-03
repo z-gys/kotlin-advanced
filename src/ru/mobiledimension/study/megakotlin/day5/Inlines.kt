@@ -21,13 +21,8 @@ inline fun <T> lock(lock: Lock, body: ()->T ):T {
 }
 
 inline fun cross(crossinline body:() -> Unit) {
-    val f= object: Runnable {
-        override fun run(){
-            body()
-        }
-    }
-
-
+    val f= Runnable { body() }
+    Thread(f).start()
 }
 
 inline fun notInlined(inlined: ()->Unit, noinline notInlined: ()->Unit): ()->Unit {
