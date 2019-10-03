@@ -18,6 +18,6 @@ fun make(callable: () -> String)  {
 fun main() {
     make(RequestType.GET to "mobdim.ru")
 
-    "http://mobdim.ru".get()
+    //"http://mobdim.ru".get()
 }
 
