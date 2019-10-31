@@ -2,22 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52a9c8e1-a897-4a43-b1d0-79a46ab502c7" name="Default Changelist" comment="aafter day 5">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day6/CancellationBad.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day6/CoroutinesBasic.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day6/CoroutinesCancellation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day6/CoroutinesMany.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day6/CoroutinesScopes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day6/Delegates.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day6/Lazy.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day7/AnyOf.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day7/AnyOfCollection.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day7/AsyncBad.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day7/AsyncGood.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day7/Await.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day7/ClosedLegacy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day7/Dispatchers.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day7/DispatchersDebug.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day7/DispatchersUnconfined.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day7/Legacy.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mega-kotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mega-kotlin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mega-kotlin/META-INF/mega-kotlin.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mega-kotlin/ru/mobiledimension/study/megakotlin/day1/BasicKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mega-kotlin/ru/mobiledimension/study/megakotlin/day1/Fuck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day4/Dsl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day4/Dsl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +48,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1PgdySfTXa6VhiuqempE2E6Wig9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -83,79 +87,86 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ru.mobiledimension.study.megakotlin.day6.CancellationBadKt">
-    <configuration name="ru.mobiledimension.study.megakotlin.day6.CancellationBadKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.ru.mobiledimension.study.megakotlin.day7.DispatchersDebugKt">
+    <configuration name="ru.mobiledimension.study.megakotlin.day7.AnyOfCollectionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="mega-kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ru.mobiledimension.study.megakotlin.day6.CancellationBadKt" />
+      <option name="MAIN_CLASS_NAME" value="ru.mobiledimension.study.megakotlin.day7.AnyOfCollectionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.mobiledimension.study.megakotlin.day6.CoroutinesBasicKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="ru.mobiledimension.study.megakotlin.day7.AnyOfKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="mega-kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ru.mobiledimension.study.megakotlin.day6.CoroutinesBasicKt" />
+      <option name="MAIN_CLASS_NAME" value="ru.mobiledimension.study.megakotlin.day7.AnyOfKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.mobiledimension.study.megakotlin.day6.CoroutinesCancellationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="ru.mobiledimension.study.megakotlin.day7.AsyncGoodKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="mega-kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ru.mobiledimension.study.megakotlin.day6.CoroutinesCancellationKt" />
+      <option name="MAIN_CLASS_NAME" value="ru.mobiledimension.study.megakotlin.day7.AsyncGoodKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.mobiledimension.study.megakotlin.day6.CoroutinesManyKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="ru.mobiledimension.study.megakotlin.day7.DispatchersDebugKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="mega-kotlin" />
+      <option name="VM_PARAMETERS" value="-Dkotlinx.coroutines.debug" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.mobiledimension.study.megakotlin.day7.DispatchersDebugKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.mobiledimension.study.megakotlin.day7.LegacyKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="mega-kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ru.mobiledimension.study.megakotlin.day6.CoroutinesManyKt" />
+      <option name="MAIN_CLASS_NAME" value="ru.mobiledimension.study.megakotlin.day7.LegacyKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.mobiledimension.study.megakotlin.day6.CoroutinesScopesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="mega-kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ru.mobiledimension.study.megakotlin.day6.CoroutinesScopesKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day7.AnyOfCollectionKt" />
+      <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day7.AnyOfKt" />
+      <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day7.AsyncGoodKt" />
+      <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day7.DispatchersDebugKt" />
+      <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day7.LegacyKt" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day6.CancellationBadKt" />
-        <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day6.CoroutinesCancellationKt" />
-        <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day6.CoroutinesScopesKt" />
-        <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day6.CoroutinesManyKt" />
-        <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day6.CoroutinesBasicKt" />
+        <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day7.DispatchersDebugKt" />
+        <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day7.AnyOfCollectionKt" />
+        <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day7.AnyOfKt" />
+        <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day7.LegacyKt" />
+        <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day7.AsyncGoodKt" />
       </list>
     </recent_temporary>
   </component>
@@ -185,6 +196,7 @@
       <workItem from="1568729991982" duration="2315000" />
       <workItem from="1568804232188" duration="1878000" />
       <workItem from="1570108584092" duration="4723000" />
+      <workItem from="1572530577556" duration="4429000" />
     </task>
     <task id="LOCAL-00001" summary="add exaple for day2">
       <created>1566480513535</created>
@@ -236,5 +248,16 @@
     <MESSAGE value="aafter day 3" />
     <MESSAGE value="aafter day 5" />
     <option name="LAST_COMMIT_MESSAGE" value="aafter day 5" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day7/DispatchersDebug.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
