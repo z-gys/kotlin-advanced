@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52a9c8e1-a897-4a43-b1d0-79a46ab502c7" name="Default Changelist" comment="aafter day 7">
-      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day8/ActivityCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day8/ExceptionPropogation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day8/ImplicitJoin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day8/ParentsAndChilds.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day8/SwitchingContext.kt" afterDir="false" />
+    <list default="true" id="52a9c8e1-a897-4a43-b1d0-79a46ab502c7" name="Default Changelist" comment="aafter day 8">
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day9/FlowCoroutines.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day9/FlowExceptions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day9/FlowExceptions2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day9/FlowGenration.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day9/FlowOperations.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day9/FlowSlow.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mobiledimension/study/megakotlin/day9/FlowSlow2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,86 +74,86 @@
       <recent name="C:\Projects\Kotlin\mega-kotlin" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ru.mobiledimension.study.megakotlin.day8.ExceptionPropogationKt">
-    <configuration name="ru.mobiledimension.study.megakotlin.day8.ActivityCaseKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="mega-kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ru.mobiledimension.study.megakotlin.day8.ActivityCaseKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ru.mobiledimension.study.megakotlin.day8.ExceptionPropogationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="mega-kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ru.mobiledimension.study.megakotlin.day8.ExceptionPropogationKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ru.mobiledimension.study.megakotlin.day8.ImplicitJoinKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="mega-kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ru.mobiledimension.study.megakotlin.day8.ImplicitJoinKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ru.mobiledimension.study.megakotlin.day8.ParentsAndChildsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="mega-kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ru.mobiledimension.study.megakotlin.day8.ParentsAndChildsKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ru.mobiledimension.study.megakotlin.day8.SwitchingContextKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.ru.mobiledimension.study.megakotlin.day9.FlowExceptions2Kt">
+    <configuration name="ru.mobiledimension.study.megakotlin.day9.FlowCoroutinesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="mega-kotlin" />
       <option name="VM_PARAMETERS" value="-Dkotlinx.coroutines.debug" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ru.mobiledimension.study.megakotlin.day8.SwitchingContextKt" />
+      <option name="MAIN_CLASS_NAME" value="ru.mobiledimension.study.megakotlin.day9.FlowCoroutinesKt" />
       <option name="WORKING_DIRECTORY" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ru.mobiledimension.study.megakotlin.day9.FlowExceptions2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="mega-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.mobiledimension.study.megakotlin.day9.FlowExceptions2Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.mobiledimension.study.megakotlin.day9.FlowExceptionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="mega-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.mobiledimension.study.megakotlin.day9.FlowExceptionsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.mobiledimension.study.megakotlin.day9.FlowSlow2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="mega-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.mobiledimension.study.megakotlin.day9.FlowSlow2Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.mobiledimension.study.megakotlin.day9.FlowSlowKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="mega-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.mobiledimension.study.megakotlin.day9.FlowSlowKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day8.SwitchingContextKt" />
-      <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day8.ParentsAndChildsKt" />
-      <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day8.ImplicitJoinKt" />
-      <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day8.ActivityCaseKt" />
-      <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day8.ExceptionPropogationKt" />
+      <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day9.FlowSlowKt" />
+      <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day9.FlowCoroutinesKt" />
+      <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day9.FlowSlow2Kt" />
+      <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day9.FlowExceptionsKt" />
+      <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day9.FlowExceptions2Kt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day8.ExceptionPropogationKt" />
-        <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day8.ActivityCaseKt" />
-        <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day8.ImplicitJoinKt" />
-        <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day8.ParentsAndChildsKt" />
-        <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day8.SwitchingContextKt" />
+        <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day9.FlowExceptions2Kt" />
+        <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day9.FlowExceptionsKt" />
+        <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day9.FlowSlow2Kt" />
+        <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day9.FlowCoroutinesKt" />
+        <item itemvalue="Kotlin.ru.mobiledimension.study.megakotlin.day9.FlowSlowKt" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +183,7 @@
       <workItem from="1572530577556" duration="4507000" />
       <workItem from="1573053668063" duration="285000" />
       <workItem from="1573134940625" duration="3877000" />
+      <workItem from="1574774947134" duration="4541000" />
     </task>
     <task id="LOCAL-00001" summary="add exaple for day2">
       <created>1566480513535</created>
@@ -217,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572535035293</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="aafter day 8">
+      <created>1574774989062</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574774989062</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,45 +249,46 @@
     <MESSAGE value="aafter day 3" />
     <MESSAGE value="aafter day 5" />
     <MESSAGE value="aafter day 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="aafter day 7" />
+    <MESSAGE value="aafter day 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="aafter day 8" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1573136097878">
+    <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1574778557701">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1573136097878" />
-    <state width="1557" height="297" key="GridCell.Tab.0.bottom" timestamp="1573138985453">
+    <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1574778557701" />
+    <state width="1557" height="296" key="GridCell.Tab.0.bottom" timestamp="1574778561697">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1600" height="329" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1573138637822">
+    <state width="1600" height="327" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1574780300349">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1600" height="329" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1600.860@0.0.1600.860" timestamp="1573138637822" />
-    <state width="1557" height="297" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1573138985453" />
-    <state width="1557" height="297" key="GridCell.Tab.0.center" timestamp="1573138985453">
+    <state width="1600" height="327" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1600.860@0.0.1600.860" timestamp="1574780300349" />
+    <state width="1557" height="296" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1574778561697" />
+    <state width="1557" height="296" key="GridCell.Tab.0.center" timestamp="1574778561697">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1600" height="329" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1573138637822">
+    <state width="1600" height="327" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1574780300349">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1600" height="329" key="GridCell.Tab.0.center.inPresentationMode/0.0.1600.860@0.0.1600.860" timestamp="1573138637822" />
-    <state width="1557" height="297" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1573138985453" />
-    <state width="1557" height="297" key="GridCell.Tab.0.left" timestamp="1573138985453">
+    <state width="1600" height="327" key="GridCell.Tab.0.center.inPresentationMode/0.0.1600.860@0.0.1600.860" timestamp="1574780300349" />
+    <state width="1557" height="296" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1574778561697" />
+    <state width="1557" height="296" key="GridCell.Tab.0.left" timestamp="1574778561697">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1600" height="329" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1573138637822">
+    <state width="1600" height="327" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1574780300349">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1600" height="329" key="GridCell.Tab.0.left.inPresentationMode/0.0.1600.860@0.0.1600.860" timestamp="1573138637822" />
-    <state width="1557" height="297" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1573138985453" />
-    <state width="1557" height="297" key="GridCell.Tab.0.right" timestamp="1573138985453">
+    <state width="1600" height="327" key="GridCell.Tab.0.left.inPresentationMode/0.0.1600.860@0.0.1600.860" timestamp="1574780300349" />
+    <state width="1557" height="296" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1574778561697" />
+    <state width="1557" height="296" key="GridCell.Tab.0.right" timestamp="1574778561697">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1600" height="329" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1573138637822">
+    <state width="1600" height="327" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1574780300349">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1600" height="329" key="GridCell.Tab.0.right.inPresentationMode/0.0.1600.860@0.0.1600.860" timestamp="1573138637822" />
-    <state width="1557" height="297" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1573138985453" />
+    <state width="1600" height="327" key="GridCell.Tab.0.right.inPresentationMode/0.0.1600.860@0.0.1600.860" timestamp="1574780300349" />
+    <state width="1557" height="296" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1574778561697" />
     <state width="1557" height="275" key="GridCell.Tab.1.bottom" timestamp="1573138985446">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -310,5 +321,13 @@
     </state>
     <state width="1557" height="275" key="GridCell.Tab.1.right.inPresentationMode/0.0.1600.860@0.0.1600.860" timestamp="1573136177128" />
     <state width="1557" height="275" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1573138985446" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1574774992015">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode" timestamp="1574779957316">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode/0.0.1600.860@0.0.1600.860" timestamp="1574779957316" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1574774992015" />
   </component>
 </project>
